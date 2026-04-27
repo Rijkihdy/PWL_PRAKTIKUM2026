@@ -20,4 +20,6 @@ class Book extends Model
     {
         return $this->belongsTo(Bookshelf::class, 'bookshelf_id', 'id');
     }
+
+    
 }
